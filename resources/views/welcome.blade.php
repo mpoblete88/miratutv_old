@@ -82,7 +82,6 @@
                     Mira tu TV
                 </div>
 
-                
             </div>
         </div>
     </body>
