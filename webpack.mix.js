@@ -12,7 +12,9 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+.sass('resources/assets/sass/app.scss', 'public/css');
 
 mix.copy('resources/assets/images','public/images');
-mix.copy('resources/assets/images/logo/favicon.ico','public/');
+mix.copy('resources/assets/images/favicon.ico','public/');
+mix.copy('resources/assets/js/libraries','public/js');
+

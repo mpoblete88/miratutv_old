@@ -2,32 +2,33 @@
 <html lang="es">
 <head>
     @include('system.includes.head')
+    @yield('head')
+    <style>
+
+        footer{
+            background-color: #292b2c!important;
+            padding: 10px;
+        }
+
+        #contact{
+            color: #74787E;
+        }
+
+        #rrss{
+            color: #74787E;
+        }
+
+     @yield('style')
+    </style>
 </head>
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<style>
-    footer{
-        background-color: #292b2c!important;
-    }
-
-    #contact{
-        color: #74787E;
-    }
-
-    #rrss{
-        color: #74787E;
-    }
-</style>
-
-
-    <header class="row">
+    {{--<header class="row">--}}
         @include('system.includes.header')
-    </header>
+    {{--</header>--}}
 
 
-    {{--<div id="sidebar" class="col-md-4">--}}
-    @include('system.includes.sidebar')
-    {{--</div>--}}
+    {{--@include('system.includes.sidebar')--}}
 
     <!-- main content -->
     @yield('content')
@@ -42,6 +43,7 @@
     <footer class="row">
         @include('system.includes.footer')
     </footer>
+    @yield('script')
 
 </body>
 </html>
