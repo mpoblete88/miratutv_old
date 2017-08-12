@@ -294,7 +294,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="">PRONTO</h1>
-                    <p>Nuevo Sitio Mira tu TV</p>
+                    <p>Nuevo Sitio MiraTu<strong>TV</strong></p>
                     {{--<a class="btn btn-default page-scroll" href="#planBase">Click Me to Scroll Down!</a>--}}
                 </div>
             </div>
