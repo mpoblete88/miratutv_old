@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top"><img src="/images/logo/logo_horizontal.png" alt=""></a>
+            <a class="navbar-brand page-scroll logo-header" href="#page-top"><img src="/images/logo/logo_header.png" alt=""></a>
 
         </div>
 

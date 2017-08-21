@@ -18,6 +18,11 @@
             color: #74787E;
         }
 
+        .logo-header
+        {
+            padding: 0 !important;
+        }
+
      @yield('style')
     </style>
 </head>
