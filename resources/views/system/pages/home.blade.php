@@ -359,7 +359,7 @@
                         <li> 10 Canales Nacionales Standard (SD)</li>
                         <li> 80 Canales Standard (SD)</li>
                         <li> 06 Canales Nacionales en Alta Definición (HD)</li>
-                        <li> 57 Canales Nacionales en Alta Definición (HD)</li>
+                        <li> 57 Canales en Alta Definición (HD)</li>
                     </ul>
                     <p> <strong>$14.500 *</strong></p>
                     <p> * Incluye 1 decodificador HD</p>
