@@ -293,9 +293,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="">PRONTO</h1>
-                    <p>Nuevo Sitio MiraTu<strong>TV</strong></p>
-                    {{--<a class="btn btn-default page-scroll" href="#planBase">Click Me to Scroll Down!</a>--}}
+                     <div class="container">
+                        <img src="images/imagen_banner_home.png" alt="Plan Base" width="650px">
+            </div>
                 </div>
             </div>
         </div>
