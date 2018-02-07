@@ -31,6 +31,11 @@
                 <li>
                     <a class="page-scroll" href="#planTotal">Plan Total</a>
                 </li>
+
+                <li>
+                    <a class="page-scroll" href="#formaPago">Formas de Pago</a>
+                </li>
+
             </ul>
         </div>
         <!-- /.navbar-collapse -->

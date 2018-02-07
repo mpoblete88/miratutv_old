@@ -4,7 +4,10 @@
             <img style="width: 100px" src="/images/logo/logo_blanco.png" alt="">
         </a>
     </div>
-
+    <div id="soporte" class="col-md-3">
+        <h3>SOPORTE TÉCNICO</h3>
+        <h3><a href="tel:+56 9 6809 9807">+56 9 6809 9807</a> </h3>
+    </div>
     <div id="rrss" class="col-md-3">
         {{--Facebook|Twitter|Ubicacion--}}
     </div>

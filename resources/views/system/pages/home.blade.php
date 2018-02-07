@@ -82,7 +82,7 @@
     .navbar-inverse .nav.navbar-nav li a{
         height: 80px;
         line-height: 50px;
-        width: 180px;
+        /*width: 180px;*/
         text-align: center;
     }
     .channels{
@@ -105,6 +105,12 @@
     .plans
     {
         padding: 0 0 50px 0;
+    }
+
+    .formaPago{
+        /*height: 100%;*/
+        paddingformaPago-top: 50px;
+        background: #eee;
     }
 
 
@@ -367,6 +373,14 @@
                     <button class="btn btn-default" type="button" onclick="subTr(this)">
                         ver detalle de canales <span class="badge">156</span>
                     </button>
+                    <p style="margin-top: 10px">
+
+                        <a type="button" href="parrilla_de_canales.pdf" value="facebook" target="_blank" class="button" >
+                            <span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span> Descargar Parrilla de Canales
+                        </a>
+
+                    </p>
+
                 </div>
             </div>
         </div>
@@ -406,6 +420,14 @@
                         ver detalle de canales <span class="badge">160</span>
                     </button>
 
+                    <p style="margin-top: 10px">
+
+                        <a type="button" href="parrilla_de_canales.pdf" value="facebook" target="_blank" class="button" >
+                            <span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span> Descargar Parrilla de Canales
+                        </a>
+
+                    </p>
+
                 </div>
             </div>
         </div>
@@ -438,6 +460,14 @@
                     <button class="btn btn-default" type="button" onclick="subTr(this)">
                         ver detalle de canales <span class="badge">175</span>
                     </button>
+
+                    <p style="margin-top: 10px">
+
+                        <a type="button" href="parrilla_de_canales.pdf" value="facebook" target="_blank" class="button" >
+                            <span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span> Descargar Parrilla de Canales
+                        </a>
+
+                    </p>
                 </div>
             </div>
         </div>
@@ -484,9 +514,74 @@
                     <p> <strong>$25.000 *</strong></p>
                     <p> * Incluye 1 decodificador HD</p>
                 </div>
+
+                <p style="margin-top: 10px">
+
+                    <a type="button" href="parrilla_de_canales.pdf" value="facebook" target="_blank" class="button" >
+                        <span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span> Descargar Parrilla de Canales
+                    </a>
+
+                </p>
             </div>
         </div>
     </section>
+
+
+    <section id="formaPago" class="formaPago">
+        <div class="container plans">
+            <div class="row">
+                <div class="col-lg-12" >
+                        <table class="table table-striped" style="">
+                            <tr class="pagoTitle">
+                                <td><H4><STRONG>FORMAS DE PAGO</STRONG></H4></td></tr>
+                            <tr>
+
+                            <tr><td><STRONG>Pago en caja Vecina</STRONG> <img src="images/img_logo1.jpg" alt="..."  style="float: right" class="img-rounded"></td></tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                       <ul>
+                                           <li>Dirigirse a cualquier caja vecina y hacer un <strong>DEPOSITO</strong> en cuenta tipo <strong>CHEQUERA ELECTRONICA</strong></li>
+                                           <li>Numero de cuenta: <strong>29070106351</strong></li>
+                                           <li>A nombre de Rivas y Alfaro Limitada.</li>
+                                           <li>Cuando el cajero le solicite el Rut, indicarle el rut del titular del servicio</li>
+                                           <li>Enviar comprobante de pago por WhatsApp al número <strong>9 6286 7183</strong> o al <strong>9 6809 9807</strong></li>
+
+                                       </ul>
+                                    </div>
+
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <STRONG>Transferencia</STRONG> <img src="images/img_logo2.jpg" alt="..."  style="float: right" class="img-rounded">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <ul>
+                                            <li>Realizar Transferencia a cuenta CHEQUERA ELECTRONICA o VISTA</li>
+                                            <li>Banco del Estado</li>
+                                            <li>Cuenta numero 29070106351</li>
+                                            <li>Rut 76.737.868-8</li>
+                                            <li>Correo: pagos@miratutv.com</li>
+                                            <li>A nombre de Rivas y Alfaro Limitada</li>
+                                        </ul>
+
+
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 
